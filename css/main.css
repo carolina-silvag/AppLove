@@ -70,10 +70,14 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
-
+.head{
+  margin-left: 8%;
+  margin-bottom: 2%;
+}
 .head a{
   position: relative;
   margin-left: 4%;
+  font-family: sans-serif;
 }
 .logo{
   position: relative;
@@ -155,13 +159,33 @@ h5,h6{
   width: 70%;
   height: 70%;
 }
+.third-part h2{
+  font-size: 300%;
+  margin-bottom: 0;
+}
+.third-part h4{
+  font-size: 120%;
+  margin-bottom: 4%;
+}
 .fotos img{
   margin: 5%;
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
 }
 .foto{
   width: 33%;
   text-align: center;
   float: left;
+}
+.foto h5{
+  font-size: 150%;
+}
+.pie{
+  margin-left: 5%;
+  width: 70%;
+  position: relative;
+  text-align: center;
+  left: 5%;
+  /*background-color: #000;
+  color: #fff;*/
 }
